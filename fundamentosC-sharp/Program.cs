@@ -21,8 +21,14 @@ pessoa2.Apresentar();
 */
 
 //===============================================
+//===============================================
+//===============================================
+
+
 //TIPOS DE OPERADORES
 
+//OPERADORES DE ATRIBUIÇÃO
+/*
 string hello="Hello, friend!"; //O operador de atribuição = serve para definir o valor de uma variavel
 Console.WriteLine(hello);
 
@@ -63,3 +69,51 @@ double testeOrdem=4/2+1;//Primeiro sera feita a divisão do 4 por 2 e sera somad
 System.Console.WriteLine(testeOrdem);
 testeOrdem=4/(2+1);//A operação entre parenteses tem prioridade na execução da conta
 System.Console.WriteLine(testeOrdem);
+*/
+
+
+//--------------------------------------------------
+
+
+//OPERADORES CONDICIONAIS
+
+using System.Diagnostics;
+using System.Linq.Expressions;
+
+int qtdEstoque = 10;
+int qtdCompra = 4;
+bool vendaValida=qtdCompra>0 && qtdEstoque>=qtdCompra;
+System.Console.WriteLine("Quantidade em estoque:"+qtdEstoque);
+System.Console.WriteLine("Quantidade da compra:"+qtdCompra);
+System.Console.WriteLine("é possivel efetuar a compra?:"+vendaValida);
+
+if(qtdCompra==0){
+    System.Console.WriteLine("Venda invalida");
+}
+else if(vendaValida){
+    System.Console.WriteLine("Compra efetuada com sucesso");
+}else{
+    System.Console.WriteLine("Quantidade do item em falta no estoque");
+};
+
+
+//SWITCH CASE
+
+System.Console.WriteLine("Digite uma letra:");
+string letter = Console.ReadLine();
+
+
+
+switch( letter){
+     case "a" :
+     case "e" :
+     case "i" :
+     case "o" :
+     case "u" :
+        System.Console.WriteLine("Vogal");
+        break;
+
+    default:
+        System.Console.WriteLine("Consoante");
+        break;
+}
