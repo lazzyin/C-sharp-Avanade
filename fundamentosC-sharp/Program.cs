@@ -124,7 +124,7 @@ switch( letter){
 //--------------------------------------------------
 
 
-
+/*
 //OPERADORES LOGICOS
 
 // Operador || Pipe, operador de OR
@@ -148,7 +148,7 @@ double media=6.5;//Nota media
 if(presençaMin && media>=6){//Caso as duas condições sejam verdadeiras faça:
     System.Console.WriteLine("Aluno aprovado");
 }else{
-    System.Console.WriteLine("Aluno reprobado");//Caso uma das condições for falsa
+    System.Console.WriteLine("Aluno reprovado");//Caso uma das condições for falsa
 }
 
 //Operador !, operador de negação
@@ -156,9 +156,15 @@ if(presençaMin && media>=6){//Caso as duas condições sejam verdadeiras faça:
 
 bool chuva=true;
 bool tarde=true;
-
 if(!chuva && !tarde){//Caso as duas variaveis sejam falsas retorna:
     System.Console.WriteLine("Sair de bike");
 }else{
     System.Console.WriteLine("Não sair");//Caso as duas variaveis sejam verdadeiras retorna.
 }
+*/
+
+//===============================================
+//===============================================
+//===============================================
+
+
