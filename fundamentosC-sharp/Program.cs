@@ -75,6 +75,7 @@ System.Console.WriteLine(testeOrdem);
 //--------------------------------------------------
 
 
+/*
 //OPERADORES CONDICIONAIS
 
 using System.Diagnostics;
@@ -116,4 +117,48 @@ switch( letter){
     default:
         System.Console.WriteLine("Consoante");
         break;
+}
+*/
+
+
+//--------------------------------------------------
+
+
+
+//OPERADORES LOGICOS
+
+// Operador || Pipe, operador de OR
+
+bool maiorIdade=false;//é maior de idae
+bool perm = true;//Tem permissão de um adulto
+
+if(maiorIdade || perm){//Se uma das condições for verdadeira faça:
+    System.Console.WriteLine("Entrada permitida");
+}else{
+    System.Console.WriteLine("Entrada proibida");//Caso as duas condições forem falsas
+}
+
+//Operador &&, operador AND
+
+bool presençaMin=false;//Presença minima
+double media=6.5;//Nota media
+
+
+
+if(presençaMin && media>=6){//Caso as duas condições sejam verdadeiras faça:
+    System.Console.WriteLine("Aluno aprovado");
+}else{
+    System.Console.WriteLine("Aluno reprobado");//Caso uma das condições for falsa
+}
+
+//Operador !, operador de negação
+
+
+bool chuva=true;
+bool tarde=true;
+
+if(!chuva && !tarde){//Caso as duas variaveis sejam falsas retorna:
+    System.Console.WriteLine("Sair de bike");
+}else{
+    System.Console.WriteLine("Não sair");//Caso as duas variaveis sejam verdadeiras retorna.
 }
