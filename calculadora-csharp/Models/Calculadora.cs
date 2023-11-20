@@ -47,5 +47,10 @@ namespace ExemploFundamentos.Models
             double tan=Math.Tan(radiano);
             System.Console.WriteLine($"Tangente de {ang} = {Math.Round(tan,4)}");
         }
+
+        public void Raiz(double x){
+            double raiz = Math.Sqrt(x);
+            System.Console.WriteLine($"Raiz quadrada de {x} = {raiz}");
+        }
     }
 }
