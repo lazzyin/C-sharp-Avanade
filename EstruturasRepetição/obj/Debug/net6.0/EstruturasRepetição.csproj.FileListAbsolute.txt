@@ -1,0 +1,15 @@
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\bin\Debug\net6.0\EstruturasRepetição.exe
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\bin\Debug\net6.0\EstruturasRepetição.deps.json
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\bin\Debug\net6.0\EstruturasRepetição.runtimeconfig.json
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\bin\Debug\net6.0\EstruturasRepetição.dll
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\bin\Debug\net6.0\EstruturasRepetição.pdb
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\obj\Debug\net6.0\EstruturasRepetição.csproj.AssemblyReference.cache
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\obj\Debug\net6.0\EstruturasRepetição.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\obj\Debug\net6.0\EstruturasRepetição.AssemblyInfoInputs.cache
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\obj\Debug\net6.0\EstruturasRepetição.AssemblyInfo.cs
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\obj\Debug\net6.0\EstruturasRepetição.csproj.CoreCompileInputs.cache
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\obj\Debug\net6.0\EstruturasRepetição.dll
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\obj\Debug\net6.0\refint\EstruturasRepetição.dll
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\obj\Debug\net6.0\EstruturasRepetição.pdb
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\obj\Debug\net6.0\EstruturasRepetição.genruntimeconfig.cache
+C:\Users\Micro\Documents\c-sharp-avanade\EstruturasRepetição\obj\Debug\net6.0\ref\EstruturasRepetição.dll
