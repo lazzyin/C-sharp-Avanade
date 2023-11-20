@@ -29,7 +29,7 @@ System.Console.WriteLine($"Total da soma dos numeros: {soma}");
 
 string opcao;
 
-while(opcao!=4){
+while(opcao!="4"){
     System.Console.WriteLine("Digite sua opção:");
     System.Console.WriteLine("1-Novo cliente");
     System.Console.WriteLine("2-Buscar cliente");
