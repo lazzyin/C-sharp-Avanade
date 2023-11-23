@@ -41,8 +41,8 @@ foreach (int val in arrayInt)//percorrendo array com foreach
 */
 
 /*
-COPIANDO OS ELEMENTOS DE UM ARRAY PARA OUTRO
-*/
+//COPIANDO OS ELEMENTOS DE UM ARRAY PARA OUTRO
+
 
 int[] arrayIntDobrado = new int[arrayInt.Length * 2];//Cria um novo array com o dobro da capacidade do arrayInt
 Array.Copy(arrayInt, arrayIntDobrado,arrayInt.Length);//Copia todos os elementos do arrayInt e passa para o novo array
@@ -53,3 +53,37 @@ foreach (int val in arrayIntDobrado)//percorrendo array com foreach
     System.Console.WriteLine($"Posição:{countForeach} | Posição:{val}");//Por não terem sido declarados os elementos a mais do novo array terão o valor de 0
     countForeach++;
 }
+*/
+
+/*
+//LISTAS
+*/
+
+List<string> listaString = new List<string>();
+
+listaString.Add("Luffy");
+listaString.Add("Zoro");
+listaString.Add("Nami");
+/*
+System.Console.WriteLine("Percorrendo lista com for:");
+for(int i=0;i<listaString.Count;i++){
+    System.Console.WriteLine($"Posição:{i} | Elemento:{listaString[i]}");
+}
+System.Console.WriteLine("Percorrendo lista com foreach:");
+int contador=0;
+foreach (string item in listaString)
+{
+    System.Console.WriteLine($"Posição:{contador} | Elemento:{item}");
+    contador++;
+}
+*/
+
+System.Console.WriteLine($"Item na lista: {listaString.Count} | Capacidade:{listaString.Capacity}");//Count representa o numero de elementos dentro do lista, enquanto Capacity representa o valor da capacidade da lista
+listaString.Add("Sanji");
+listaString.Add("Chopper");
+listaString.Add("Robin");
+System.Console.WriteLine($"Item na lista: {listaString.Count} | Capacidade:{listaString.Capacity}");//Caso o numero de elementos passe o valor da capacidade da lista ela aumenta o valor da capcidade automaticamente
+
+listaString.Remove("Robin");
+
+System.Console.WriteLine($"Item na lista: {listaString.Count} | Capacidade:{listaString.Capacity}");
