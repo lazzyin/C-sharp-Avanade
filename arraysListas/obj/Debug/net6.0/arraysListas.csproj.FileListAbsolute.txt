@@ -1,0 +1,15 @@
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\obj\Debug\net6.0\arraysListas.csproj.AssemblyReference.cache
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\obj\Debug\net6.0\arraysListas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\obj\Debug\net6.0\arraysListas.AssemblyInfoInputs.cache
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\obj\Debug\net6.0\arraysListas.AssemblyInfo.cs
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\obj\Debug\net6.0\arraysListas.csproj.CoreCompileInputs.cache
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\bin\Debug\net6.0\arraysListas.exe
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\bin\Debug\net6.0\arraysListas.deps.json
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\bin\Debug\net6.0\arraysListas.runtimeconfig.json
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\bin\Debug\net6.0\arraysListas.dll
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\bin\Debug\net6.0\arraysListas.pdb
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\obj\Debug\net6.0\arraysListas.dll
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\obj\Debug\net6.0\refint\arraysListas.dll
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\obj\Debug\net6.0\arraysListas.pdb
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\obj\Debug\net6.0\arraysListas.genruntimeconfig.cache
+C:\Users\Micro\Documents\c-sharp-avanade\arraysListas\obj\Debug\net6.0\ref\arraysListas.dll
