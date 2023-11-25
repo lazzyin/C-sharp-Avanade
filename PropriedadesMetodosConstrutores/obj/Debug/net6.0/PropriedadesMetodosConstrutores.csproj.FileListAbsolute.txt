@@ -1,0 +1,15 @@
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\obj\Debug\net6.0\PropriedadesMetodosConstrutores.csproj.AssemblyReference.cache
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\obj\Debug\net6.0\PropriedadesMetodosConstrutores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\obj\Debug\net6.0\PropriedadesMetodosConstrutores.AssemblyInfoInputs.cache
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\obj\Debug\net6.0\PropriedadesMetodosConstrutores.AssemblyInfo.cs
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\obj\Debug\net6.0\PropriedadesMetodosConstrutores.csproj.CoreCompileInputs.cache
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\bin\Debug\net6.0\PropriedadesMetodosConstrutores.exe
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\bin\Debug\net6.0\PropriedadesMetodosConstrutores.deps.json
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\bin\Debug\net6.0\PropriedadesMetodosConstrutores.runtimeconfig.json
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\bin\Debug\net6.0\PropriedadesMetodosConstrutores.dll
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\bin\Debug\net6.0\PropriedadesMetodosConstrutores.pdb
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\obj\Debug\net6.0\PropriedadesMetodosConstrutores.dll
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\obj\Debug\net6.0\refint\PropriedadesMetodosConstrutores.dll
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\obj\Debug\net6.0\PropriedadesMetodosConstrutores.pdb
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\obj\Debug\net6.0\PropriedadesMetodosConstrutores.genruntimeconfig.cache
+C:\Users\Micro\Documents\c-sharp-avanade\PropriedadesMetodosConstrutores\obj\Debug\net6.0\ref\PropriedadesMetodosConstrutores.dll
