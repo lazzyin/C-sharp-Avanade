@@ -8,8 +8,8 @@ namespace PropriedadesMetodosConstrutores.Models
     public class Pessoa
     {
 
-        private string _name;
-    private int _age;
+        private string _name;//Como esta propriedade tem o acesso privado ela so pode ser modificada dentro desta classe.
+        private int _age;
 
         public string Name {
 
@@ -23,6 +23,10 @@ namespace PropriedadesMetodosConstrutores.Models
                 _name=value;
             }
         }//Implicitamente o set atribui o valor indicado a variavel. exemplo: John Doe. enquanto o get pega esse valor e utiliza nos metodos.
+        public string Lastname{get;set;}
+        
+        public string AllName => $"{Name} {Lastname}".ToUpper();
+
         public int Age { 
 
             get=>_age;
@@ -35,8 +39,10 @@ namespace PropriedadesMetodosConstrutores.Models
             }
         }
 
+        
+
         public void Apresentar(){
-            System.Console.WriteLine($"Nome:{Name} | Idade:{Age}");
+            System.Console.WriteLine($"Nome:{AllName} | Idade:{Age}");
             //Pega o valor fornecido pelo get e apresenta no console
         }
     }
