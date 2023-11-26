@@ -26,7 +26,7 @@ namespace PropriedadesMetodosConstrutores.Models
         public void ListarAlunos(){
             System.Console.WriteLine($"Alunos do curso de {Name}:\n");
             foreach(Pessoa aluno in Alunos){
-                System.Console.WriteLine(aluno.AllName);
+                System.Console.WriteLine(aluno.FullName);
             }
         }
 

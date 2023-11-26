@@ -7,6 +7,13 @@ namespace PropriedadesMetodosConstrutores.Models
 {
     public class Pessoa
     {
+        public Pessoa(){//Caso não se tenha os valores pedidos para criar o construtor é usado um construtor vazio
+
+        }
+        public Pessoa(string name, string lastname){//O construtor deve obrigatoriamente ter o mesmo nome que a classe. Construtores não tem tipo de retorno
+            Name=name;//Atribui o valor recebido no construtor como o valor da variavel Name
+            Lastname=lastname;
+        }
 
         private string _name;//Como esta propriedade tem o acesso privado ela so pode ser modificada dentro desta classe.
         private int _age;
@@ -25,7 +32,7 @@ namespace PropriedadesMetodosConstrutores.Models
         }//Implicitamente o set atribui o valor indicado a variavel. exemplo: John Doe. enquanto o get pega esse valor e utiliza nos metodos.
         public string Lastname{get;set;}
         
-        public string AllName => $"{Name} {Lastname}".ToUpper();
+        public string FullName => $"{Name} {Lastname}".ToUpper();
 
         public int Age { 
 
@@ -42,7 +49,7 @@ namespace PropriedadesMetodosConstrutores.Models
         
 
         public void Apresentar(){
-            System.Console.WriteLine($"Nome:{AllName} | Idade:{Age}");
+            System.Console.WriteLine($"Nome:{FullName} | Idade:{Age}");
             //Pega o valor fornecido pelo get e apresenta no console
         }
     }
