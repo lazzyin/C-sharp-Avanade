@@ -25,9 +25,15 @@ namespace PropriedadesMetodosConstrutores.Models
 
         public void ListarAlunos(){
             System.Console.WriteLine($"Alunos do curso de {Name}:\n");
-            foreach(Pessoa aluno in Alunos){
-                System.Console.WriteLine(aluno.FullName);
+            
+            for (int i = 0; i < Alunos.Count; i++)
+            {
+                //string texto="Nº "+ i + " "+ Alunos[i].FullName;//Utilizando + durante um texto concatenamos o texto com as variaveis
+                string texto=$"Nº-{i} {Alunos[i].FullName}";//Utilizando um $ antes de começar a string podemos utilizar variaveis no texto dentro de {}. isto é conhecido como interpolação
+                System.Console.WriteLine(texto);
             }
+
+            
         }
 
 
