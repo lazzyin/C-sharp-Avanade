@@ -29,7 +29,7 @@ namespace PropriedadesMetodosConstrutores.Models
             for (int i = 0; i < Alunos.Count; i++)
             {
                 //string texto="Nº "+ i + " "+ Alunos[i].FullName;//Utilizando + durante um texto concatenamos o texto com as variaveis
-                string texto=$"Nº-{i} {Alunos[i].FullName}";//Utilizando um $ antes de começar a string podemos utilizar variaveis no texto dentro de {}. isto é conhecido como interpolação
+                string texto=$"Nº {i+1} - {Alunos[i].FullName}";//Utilizando um $ antes de começar a string podemos utilizar variaveis no texto dentro de {}. isto é conhecido como interpolação
                 System.Console.WriteLine(texto);
             }
 
