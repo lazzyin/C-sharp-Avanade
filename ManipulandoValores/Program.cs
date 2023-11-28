@@ -17,5 +17,18 @@ System.Console.WriteLine(concatIntString);
 
 
 decimal valMonetario=50.00M;
+System.Console.WriteLine($"{valMonetario:C}");
 System.Console.WriteLine(valMonetario.ToString("C",CultureInfo.CreateSpecificCulture("en-US")));//Usando interpolação e o :C(currency) podemos formatar o decimal para retornar o valor como moeda, sera formatada de acordo com o local do sistema(R$,$).Tambem podemos mudar isto localmente
+System.Console.WriteLine(valMonetario.ToString("C1"));
 //Tambem podemos apresentar diferentes numeros de casa decimal usando C1,C2,etc...
+
+double porcent=.50;
+System.Console.WriteLine(porcent.ToString("P"));//Retorna uma porcentagem
+
+DateTime data=DateTime.Now;//Retorna o valor atual do relogio do pc
+System.Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));//Formata o DateTime para retornar como deseja
+System.Console.WriteLine(data.ToShortDateString());//Retorna apenas a data
+System.Console.WriteLine(data.ToShortTimeString());//retorna apenas a hora
+
+DateTime dataParse= DateTime.Parse("06/06/2006 6:00");//Cria uma data especifica. caso tenha algum elemento impossivel de ser em uma data normal retorna erro
+System.Console.WriteLine(dataParse);
