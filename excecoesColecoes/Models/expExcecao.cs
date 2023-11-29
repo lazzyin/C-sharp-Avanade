@@ -24,7 +24,7 @@ namespace excecoesColecoes.Models
         }
         
         public void Met4(){
-            trow new Exception("Ocorreu uma exceção");
+            throw new Exception("Ocorreu uma exceção");
         }
     }
 }

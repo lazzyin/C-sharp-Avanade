@@ -1,7 +1,5 @@
-﻿namespace excecoesColecoes.Models
-{
-    
-
+﻿using excecoesColecoes.Models;
+using System.Collections.Generic;
 
 /*
 //TRY CATCH
@@ -26,9 +24,49 @@ finally{//O bloco é executado independente de apresentar erro ou não
     System.Console.WriteLine("Finally");
 }
 */
-
+/*
 //THROW
 
 new expExcecao().Met1();
 
+
+*/
+
+//FILA
+//Em uma fila o primeiro elemento adicionado sera tambem o primeiro a sair
+/*
+Queue<int> fila=new Queue<int>();//O primeiro elemento adicionado em uma fila sera tambem o primeiro a "sair" dela
+fila.Enqueue(2);
+fila.Enqueue(9);
+fila.Enqueue(6);
+
+foreach(int item in fila){
+    System.Console.WriteLine(item);
+}
+
+System.Console.WriteLine($"Removendo elemento: {fila.Dequeue()} e adicionando o elemento 10");//Remove o primeiro elemento da fila
+fila.Enqueue(10);//Adiciona o elemento ao final da fila
+foreach(int item in fila){
+    System.Console.WriteLine(item);
+}
+*/
+
+//PILHA
+//Em uma pilha o primeiro elemento adicionado sera o ultimo a sair, e o ultimo a ser adicionado sera o primeiro a sair.
+
+Stack<int> pilha=new Stack<int>();
+pilha.Push(4);//Insere objeto no topo da pilha
+pilha.Push(8);
+pilha.Push(6);
+pilha.Push(9);
+
+foreach(int item in pilha){
+    System.Console.WriteLine(item);//O primeiro elemento adicionado sera o ultimo a sair
+}
+
+System.Console.WriteLine($"Removendo o item do topo: {pilha.Pop()}");//remove o ultimo elemento da pilha
+
+pilha.Push(7);
+foreach(int item in pilha){
+    System.Console.WriteLine(item);
 }
