@@ -32,3 +32,13 @@ System.Console.WriteLine(data.ToShortTimeString());//retorna apenas a hora
 
 DateTime dataParse= DateTime.Parse("06/06/2006 6:00");//Cria uma data especifica. caso tenha algum elemento impossivel de ser em uma data normal retorna erro
 System.Console.WriteLine(dataParse);
+
+
+string dataString="2018-10-31";
+bool sucess = DateTime.TryParseExact(dataString, "yyyy-MM-dd",CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime datatp); 
+
+if(sucess){
+    System.Console.WriteLine($"Conversão realizada com sucesso. Data: {datatp}");
+}else{
+    System.Console.WriteLine($"{datatp} não é uma data valida");
+}
