@@ -53,7 +53,7 @@ foreach(int item in fila){
 
 //PILHA
 //Em uma pilha o primeiro elemento adicionado sera o ultimo a sair, e o ultimo a ser adicionado sera o primeiro a sair.
-
+/*
 Stack<int> pilha=new Stack<int>();
 pilha.Push(4);//Insere objeto no topo da pilha
 pilha.Push(8);
@@ -69,4 +69,33 @@ System.Console.WriteLine($"Removendo o item do topo: {pilha.Pop()}");//remove o 
 pilha.Push(7);
 foreach(int item in pilha){
     System.Console.WriteLine(item);
+}
+*/
+
+//DICTIONARY
+//Dictionary é um modo de criar uma coleção de elementos unicos usando chave/valor
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("MG","Minas Gerais");
+estados.Add("SP","São Paulo");
+estados.Add("RJ","Rio de janeiro");
+
+foreach(var item in estados){
+    System.Console.WriteLine($"Chave:{item.Key} | Valor:{item.Value}");
+}
+
+estados.Remove("SP");//Remove o item usando a chave
+
+estados["RJ"]="Rio de janeiro - valor alterado";//Altera o valor de um elemento. não é possivel alterar o valor da chave dos elementos.
+foreach(var item in estados){
+    System.Console.WriteLine($"Chave:{item.Key} | Valor:{item.Value}");
+}
+
+string chave="MG";
+System.Console.WriteLine($"Verificando se existe a chave: {chave}");
+if(estados.ContainsKey(chave)){
+    System.Console.WriteLine($"Valor existente:{chave}");
+    System.Console.WriteLine(estados[chave]);
+}else{
+    System.Console.WriteLine($"Chave inexistente");
 }
